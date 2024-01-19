@@ -4,10 +4,10 @@ import subEmail from "../../src/assets/subEmail.svg";
 
 const Subscribe = () => {
   return (
-    <div className="relative my-20 mx-[8%]">
+    <div className="relative my-20 mx-[1%] md:mx-[8%]">
       <img src={subs} className="w-full h-96" alt="" />
       <div className="absolute top-0 left-0 w-full h-96 bg-[#010F58] opacity-70 bg-center bg-cover bg-no-repeat flex flex-col justify-center items-center space-y-3">
-        <p className="text-white text-4xl font-extrabold">
+        <p className="text-white text-4xl font-extrabold text-center">
           Subscribe For Newsletter
         </p>
         <p className="text-xs text-center text-white">

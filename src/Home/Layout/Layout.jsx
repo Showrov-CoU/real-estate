@@ -6,6 +6,7 @@ import Categories from "../Categories/Categories";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import Topbar from "../Topbar/Topbar";
+import Tutorial from "../Tutorial/Tutorial";
 
 const Layout = () => {
   return (
@@ -15,6 +16,7 @@ const Layout = () => {
       <Banner></Banner>
       <Categories></Categories>
       <Aboutus></Aboutus>
+      <Tutorial></Tutorial>
       <Subscribe></Subscribe>
       <Blog></Blog>
       <Footer></Footer>
