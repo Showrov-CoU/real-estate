@@ -2,19 +2,19 @@ import PropTypes from "prop-types";
 
 const Service = ({ name, image }) => {
   return (
-    <div className=" bg-white">
+    <div className=" bg-white text-[#010F58]">
       <figure className="">
         <img src={image} alt="" className="rounded-md" />
       </figure>
-      <div className=" items-center text-center">
+      <div className="mt-4 space-y-2 flex flex-col justify-center items-center text-center">
         <h2 className="card-title">{name}</h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui omnis
-          alias deserunt dolores suscipit rerum dolore. Fuga omnis expedita
-          quos.
+        <p className="text-xs">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa harum
+          eligendi neque inventore dignissimos dicta, a exercitationem
+          recusandae odio eaque?
         </p>
-        <div className="card-actions">
-          <button className="btn btn-primary">FInd a home</button>
+        <div>
+          <p className="px-4 py-2 border border-[#FF5017] text-[#FF5017] rounded-md">FInd a home</p>
         </div>
       </div>
     </div>

@@ -2374,9 +2374,9 @@ const Aboutus = () => {
             <circle cx="88.5794" cy="2.18974" r="1.5164" fill="#FF5017" />
           </svg>
         </div>
-        <div className="flex justify-between">
+        <div className="mt-5 flex justify-between">
           <p className="text-xl md:text-3xl font-extrabold">
-            Browse By Categories
+            Our Main Focus
           </p>
           <div className="flex gap-3">
             <div>
@@ -2387,7 +2387,7 @@ const Aboutus = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
+        <div className="mt-7 grid grid-cols-1 lg:grid-cols-3 gap-10">
           <Service name="Buy a Property" image={p1}></Service>
           <Service name="Sell a Property" image={p2}></Service>
           <Service name="Rent a Property" image={p3}></Service>
