@@ -1,6 +1,8 @@
 import Input from "../../Components/Input";
 import bannerImg from "../../assets/Rectangle 4612.png";
 import searchIcon from "../../assets/Search.svg";
+import LA from "../../assets/LHS Arrow.svg";
+import RA from "../../assets/RHS Arrow.svg";
 const Banner = () => {
   return (
     <div className="relative">
@@ -73,6 +75,12 @@ const Banner = () => {
             <img src={searchIcon} className="size-10" alt="" />
           </div>
         </div>
+      </div>
+      <div>
+        <img src={LA} className="size-3 md:size-12 absolute left-1 top-1/2" alt="" />
+      </div>
+      <div>
+        <img src={RA} className="size-3 md:size-12 absolute right-1 top-1/2" alt="" />
       </div>
     </div>
   );
