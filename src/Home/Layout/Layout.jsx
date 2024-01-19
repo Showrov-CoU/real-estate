@@ -1,3 +1,4 @@
+import Banner from "../Banner/Banner";
 import Navbar from "../Navbar/Navbar";
 import Topbar from "../Topbar/Topbar";
 
@@ -6,6 +7,7 @@ const Layout = () => {
     <div>
       <Topbar></Topbar>
       <Navbar></Navbar>
+      <Banner></Banner>
     </div>
   );
 };

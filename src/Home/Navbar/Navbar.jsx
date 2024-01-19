@@ -76,11 +76,7 @@ const Navbar = () => {
           </li>
           <li className="relative">
             <span className="mr-4">Pages</span>
-            <img
-              src={navicon}
-              className="absolute right-0 top-1.5"
-              alt=""
-            />
+            <img src={navicon} className="absolute right-0 top-1.5" alt="" />
           </li>
           <li>
             <a>Blog</a>
