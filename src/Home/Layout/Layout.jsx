@@ -5,6 +5,7 @@ import Blog from "../Blog/Blog";
 import Categories from "../Categories/Categories";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
+import Property from "../Property/Property";
 import Topbar from "../Topbar/Topbar";
 import Tutorial from "../Tutorial/Tutorial";
 
@@ -17,6 +18,7 @@ const Layout = () => {
       <Categories></Categories>
       <Aboutus></Aboutus>
       <Tutorial></Tutorial>
+      <Property></Property>
       <Subscribe></Subscribe>
       <Blog></Blog>
       <Footer></Footer>

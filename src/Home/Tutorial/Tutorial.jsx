@@ -26,7 +26,7 @@ const Tutorial = () => {
           </p>
         </div>
       </div>
-      <div className="absolute -bottom-32 left-1/2 transform -translate-x-1/2 h-60 w-[90%] mx-auto bg-[#F8FAFA] flex justify-evenly items-center shadow-md">
+      <div className="absolute -bottom-32 left-1/2 transform -translate-x-1/2 h-60 w-[90%] mx-auto bg-[#F8FAFA] py-2 md:py-0 grid grid-cols-2 justify-items-center md:flex md:justify-evenly md:items-center shadow-md">
         <TutorialCircle
           name="Properties Listed"
           value="98700 +"
