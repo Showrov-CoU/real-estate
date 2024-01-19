@@ -1,3 +1,4 @@
+import Aboutus from "../Aboutus/Aboutus";
 import Banner from "../Banner/Banner";
 import Categories from "../Categories/Categories";
 import Navbar from "../Navbar/Navbar";
@@ -10,6 +11,7 @@ const Layout = () => {
       <Navbar></Navbar>
       <Banner></Banner>
       <Categories></Categories>
+      <Aboutus></Aboutus>
     </div>
   );
 };
