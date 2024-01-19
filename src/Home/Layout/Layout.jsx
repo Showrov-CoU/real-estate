@@ -2,6 +2,7 @@ import Aboutus from "../Aboutus/Aboutus";
 import Banner from "../Banner/Banner";
 import Blog from "../Blog/Blog";
 import Categories from "../Categories/Categories";
+import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import Topbar from "../Topbar/Topbar";
 
@@ -14,6 +15,7 @@ const Layout = () => {
       <Categories></Categories>
       <Aboutus></Aboutus>
       <Blog></Blog>
+      <Footer></Footer>
     </div>
   );
 };
