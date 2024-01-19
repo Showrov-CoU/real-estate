@@ -1,3 +1,4 @@
+import Subscribe from "../../Components/Subscribe";
 import Aboutus from "../Aboutus/Aboutus";
 import Banner from "../Banner/Banner";
 import Blog from "../Blog/Blog";
@@ -14,6 +15,7 @@ const Layout = () => {
       <Banner></Banner>
       <Categories></Categories>
       <Aboutus></Aboutus>
+      <Subscribe></Subscribe>
       <Blog></Blog>
       <Footer></Footer>
     </div>
