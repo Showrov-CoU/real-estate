@@ -82,6 +82,13 @@ const PropertyCard = ({ image, name, bed, bath, parking, price }) => {
   );
 };
 
-PropertyCard.propTypes = {};
+PropertyCard.propTypes = {
+  image: PropTypes.image,
+  name: PropTypes.string,
+  price: PropTypes.string,
+  bed: PropTypes.number,
+  bath: PropTypes.number,
+  parking: PropTypes.number,
+};
 
 export default PropertyCard;

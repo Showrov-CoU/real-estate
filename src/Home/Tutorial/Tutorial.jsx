@@ -3,7 +3,7 @@ import p2 from "../../assets/p3.png";
 
 const Tutorial = () => {
   return (
-    <div className="mb-52 relative my-20 mx-[1%] md:mx-[8%]">
+    <div className="mb-52 relative my-20 ">
       <img src={p2} className="w-full h-96" alt="" />
       <div className="absolute top-0 left-0 w-full h-96 bg-[#010F58] opacity-70 bg-center bg-cover bg-no-repeat flex flex-col justify-center items-center space-y-3">
         <div className="absolute top-[40%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col justify-center items-center">
@@ -26,7 +26,7 @@ const Tutorial = () => {
           </p>
         </div>
       </div>
-      <div className="absolute -bottom-32 left-1/2 transform -translate-x-1/2 h-60 w-[90%] mx-auto bg-[#F8FAFA] py-2 md:py-0 grid grid-cols-2 justify-items-center md:flex md:justify-evenly md:items-center shadow-md">
+      <div className="absolute -bottom-32 left-1/2 transform -translate-x-1/2 h-60 w-[86%] mx-auto bg-[#F8FAFA] py-2 md:py-0 grid grid-cols-2 justify-items-center md:flex md:justify-evenly md:items-center shadow-md">
         <TutorialCircle
           name="Properties Listed"
           value="98700 +"

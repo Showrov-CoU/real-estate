@@ -3,6 +3,7 @@ import Aboutus from "../Aboutus/Aboutus";
 import Banner from "../Banner/Banner";
 import Blog from "../Blog/Blog";
 import Categories from "../Categories/Categories";
+import Cities from "../Cities/Cities";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import Property from "../Property/Property";
@@ -19,6 +20,7 @@ const Layout = () => {
       <Aboutus></Aboutus>
       <Tutorial></Tutorial>
       <Property></Property>
+      <Cities></Cities>
       <Subscribe></Subscribe>
       <Blog></Blog>
       <Footer></Footer>
