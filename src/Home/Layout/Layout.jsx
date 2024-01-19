@@ -1,5 +1,6 @@
 import Subscribe from "../../Components/Subscribe";
 import Aboutus from "../Aboutus/Aboutus";
+import Agent from "../Agent/Agent";
 import Banner from "../Banner/Banner";
 import Blog from "../Blog/Blog";
 import Categories from "../Categories/Categories";
@@ -21,6 +22,7 @@ const Layout = () => {
       <Tutorial></Tutorial>
       <Property></Property>
       <Cities></Cities>
+      <Agent></Agent>
       <Subscribe></Subscribe>
       <Blog></Blog>
       <Footer></Footer>
