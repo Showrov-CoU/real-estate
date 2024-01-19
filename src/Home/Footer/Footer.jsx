@@ -20,7 +20,7 @@ import Paypal from "../../assets/580b57fcd9996e24bc43c530 1.png";
 const Footer = () => {
   return (
     <div>
-      <div className="mt-12 px-[8%] bg-[#010F58] py-10 grid justify-items-center grid-cols-2 md:grid-cols-4 gap-2 md:gap-5">
+      <div className="mt-16 px-[8%] bg-[#010F58] py-10 grid justify-items-center grid-cols-2 md:grid-cols-4 gap-2 md:gap-5">
         <div className="space-y-3">
           <div className="flex justify-start items-center">
             <div>

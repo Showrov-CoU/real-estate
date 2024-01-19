@@ -6,7 +6,7 @@ import person from "../assets/person.png";
 
 const BlogCard = ({ image, cmnt, date, view, name, minute, personName }) => {
   return (
-    <div className=" bg-white text-[#010F58]">
+    <div className=" bg-white text-[#010F58] shadow-md p-3">
       <figure className="">
         <img src={image} alt="" className="rounded-md" />
       </figure>

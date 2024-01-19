@@ -8,6 +8,7 @@ import Cities from "../Cities/Cities";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import Property from "../Property/Property";
+import Testimonial from "../Testimonial/Testimonial";
 import Topbar from "../Topbar/Topbar";
 import Tutorial from "../Tutorial/Tutorial";
 
@@ -23,6 +24,7 @@ const Layout = () => {
       <Property></Property>
       <Cities></Cities>
       <Agent></Agent>
+      <Testimonial></Testimonial>
       <Subscribe></Subscribe>
       <Blog></Blog>
       <Footer></Footer>
